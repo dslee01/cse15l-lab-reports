@@ -4,7 +4,7 @@ website [Here](https://code.visualstudio.com/).
 * After downloading, when you open Visual Studio Code, your screen should look somewhat similar to this screen
 
 
-![Image](screenshottest.png) 
+![Image](screenshottest.PNG) 
 
 # Step 2 - Remotely Connecting
 * Install Open SSH

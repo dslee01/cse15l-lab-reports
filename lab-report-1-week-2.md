@@ -13,7 +13,7 @@ website [Here](https://code.visualstudio.com/).
 * Type  `$ ssh cs15lwi22zz@ieng6.ucsd.edu` in the terminal (replace zz with your respective letters)
 * Your screen should look like this
 
-![Image](screenshot2.PNG)
+![Image](screenshot2.png)
 
 # Step 3 - Run Some Commands
 * Try some of these commands 

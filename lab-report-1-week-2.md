@@ -1,11 +1,10 @@
-# Step 1 - Install VS Code
+# Step 1 - Installing VScode
 * Go download Visual Studio code from the Visual Studio Code
 website [Here](https://code.visualstudio.com/).
 * After downloading, when you open Visual Studio Code, your screen should look somewhat similar to this screen
 
 
-![Image](screenshottest.PNG) 
-
+![Image](screenshottest.png) 
 
 # Step 2 - Remotely Connecting
 * Install Open SSH
@@ -13,27 +12,78 @@ website [Here](https://code.visualstudio.com/).
 * Type  `$ ssh cs15lwi22zz@ieng6.ucsd.edu` in the terminal (replace zz with your respective letters)
 * Your screen should look like this
 
-![Image](screenshot2.png)
-
-# Step 3 - Run Some Commands
-* Try some of these commands 
-
-> `cd ~`
-
-> `cd` 
-
-> `ls -lat`
-
-> `ls -a`
-
-> `ls <directory>`
-
-> `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
-
-> `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 
-# Step 4
+![Image](screenshot1.png)
+
+
+
+# Step 3 - Trying Some Commands
+* There a numerous commands that we can use
+
+* Here are 2 examples that I chose
+
+> `cd ~` changes directory to home directory
+
+> `cd` changes directory
+
+
+* This is an example of `cd` and `cd ~` in the terminal
+
+![Image](screenshot3.png)
+ 
+
+
+# Step 4 - Moving Files with scp
+
+* To move files from the local computer to a remote computer we need to use scp
+
+* To start, run javac and java on your local computer
+
+* Then in the terminal type 
+
+`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
+
+* Now the file should be in the remote server as shown below:
+
+![Image](screenshot4.png)
+
+# Step 5 - Setting an SSH Key
+
+* To log into our remote computer without a password we use something called **ssh keys**
+
+* To set this up we need to type `ssh-keygen` on the **client**
+
+* We then need to copy the public key over to our account on the server 
+
+* On the server
+
+`$ mkdir .ssh`
+* Logout
+* On the client
+
+`$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+* Use your username and the path you saw in the command above
+
+* This is what it should look like when working:
+
+![Image](screenshot5.png)
+
+# Step 6 - Optimizing Remote Running
+
+* To run commands directly in the remote server then exit type:
+
+`$ ssh cs15lwi22aty@ieng6.ucsd.edu "ls"`
+
+* ls is just an example command
+
+* If we want to run multiple commands at once we type:
+
+`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
+* Here is an example:
+
+![Image](screenshot6.png)
 
 
 

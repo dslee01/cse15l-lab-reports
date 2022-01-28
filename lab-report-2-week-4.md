@@ -1,21 +1,21 @@
 # Screenshot of Code Changes
 
 - These are all of my code changes that I made to fix my failure-inducing inputs (All three of the fixes are on the same screenshot)
-  ![Image](screenshot8.PNG)
+  ![Image](screenshot8.png)
 
 - Here are the changes I made to MarkdownParseTest.java to fix my failure-inducing inputs.
 
 > First Error:
 
-![Image](screenshot12.PNG)
+![Image](screenshot12.png)
 
 > Second Error:
 
-![Image](screenshot13.PNG)
+![Image](screenshot13.png)
 
 > Third Error:
 
-![Image](screenshot14.PNG)
+![Image](screenshot14.png)
 
 # Link to Test Files
 
@@ -32,11 +32,11 @@
 
 - Symptom of the second error (IndexOutOfBoundsException)
 
-![Image](screenshot9.PNG)
+![Image](screenshot9.png)
 
 - Symptom of the third error (Infinite loop)
 
-![Image](screenshot11.PNG)
+![Image](screenshot11.png)
 
 # Descriptions
 

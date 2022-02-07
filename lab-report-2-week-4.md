@@ -28,7 +28,7 @@
 # Symptoms
 
 - Symptom of the first error (Infinite loop)
-  ![Image](screenshot10.png)
+  ![Image](symptom.png)
 
 - Symptom of the second error (IndexOutOfBoundsException)
 
@@ -36,7 +36,7 @@
 
 - Symptom of the third error (Infinite loop)
 
-![Image](screenshot11.png)
+![Image](symptom1.png)
 
 # Descriptions
 

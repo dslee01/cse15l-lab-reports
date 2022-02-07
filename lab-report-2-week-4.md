@@ -19,11 +19,11 @@
 
 # Link to Test Files
 
-- [First Error](https://github.com/dslee01/markdown-parse/blob/main/test-two.md)
+- [First Error](https://github.com/dslee01/markdown-parse-1/blob/master/markdown-parse/test-two.md)
 
-- [Second Error](https://github.com/dslee01/markdown-parse/blob/main/test-three.md)
+- [Second Error](https://github.com/dslee01/markdown-parse-1/blob/master/markdown-parse/test-three.md)
 
-- [Third Error](https://github.com/dslee01/markdown-parse/blob/main/test-four.md)
+- [Third Error](https://github.com/dslee01/markdown-parse-1/blob/master/markdown-parse/test-four.md)
 
 # Symptoms
 

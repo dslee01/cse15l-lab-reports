@@ -16,4 +16,4 @@
 
 - Lastly, I did the `scp` command to copy a file to my account using the alias
 
-![Image](scp.png)
+![Image](scp1.png)

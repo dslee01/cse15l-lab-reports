@@ -1,6 +1,6 @@
 # How I Found Each Test
 
-- For the two tests I chose, I found the tests with different outputs using the `diff` command on my `resullts.txt` and the provided `results.txt`. Here is the output of me running `diff`:
+- For the two tests I chose, I found the tests with different outputs using the `diff` command on my `resullts.txt` file and the provided `results.txt` file. Here is the output of me running `diff`:
 
 
 ![image](diff.png)
